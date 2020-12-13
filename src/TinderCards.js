@@ -1,12 +1,12 @@
-import { SwipeableDrawer } from '@material-ui/core';
 import React, {useState} from 'react'
+import TinderCard from 'react-tinder-card'
 import "./TinderCards.css"
 
 function TinderCards() {
     const [people, setPeople] = useState([
         {
             name: 'Elon Musk',
-            url: "https://m.media=amazon.com/images/M/MV5BMTI5NDY5NjU3NF5BMl5BanBnXkFtZTcwMzQ0MTMyMw@@._V1_UY1200_CR94,0,630,1200_AL_.jpg",
+            url: "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f47d4de7637290765bce495%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D1398%26cropX2%3D3908%26cropY1%3D594%26cropY2%3D3102",
         }
     ]);
     
@@ -25,13 +25,20 @@ function TinderCards() {
         <div className="tinderCards">
             <div className="tinderCards__cardContainer">
             {people.map(person =>(
-            <TinderCards
+            <TinderCard
                 className="swipe"
-                key={Character.name}
+                key={person.name}
                 preventSwipe={["up","down"]}
-                onSwipe={(dir)=> swiped(dir, character.name)}
-                onCardLeftScreen={()=> outOfFrame(character.name)}
-            ></TinderCards>
+                onSwipe={(dir)=> swiped(dir, person.name)}
+                onCardLeftScreen={()=> outOfFrame(person.name)}
+                
+            >
+                <div style={{background:"url(" + person.url + ")"}}
+                className="card">
+                <h3>{person.name}</h3>
+
+                </div>
+            </TinderCard>
             ))}
 
             </div>
