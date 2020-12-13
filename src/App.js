@@ -6,6 +6,9 @@ function App() {
     <div className="app">
       <header>Let's build full mern stack app</header>
       
+    {/* Header */}
+    {/* TinderCards */}
+    {/* SwipeButtons */}
     </div>
   );
 }
