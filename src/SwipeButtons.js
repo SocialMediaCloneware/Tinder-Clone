@@ -6,29 +6,29 @@ import StarRateIcon from "@material-ui/icons/StarRate";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import FlashOnIcon from "@material-ui/icons/FlashOn";
 import IconButton from "@material-ui/core/IconButton"
-import swiped from "./TinderCards"
+// import swiped from "./TinderCards"
 
 function SwipeButtons() {
     return (
         <div className="swipeButtons">  
 
-        <IconButton onClick={swiped} className="swipeButtons__repeat" >
+        <IconButton className="swipeButtons__repeat" >
             <ReplayIcon fontSize="large" />
         </IconButton>
 
-        <IconButton onClick={swiped} className="swipeButtons__left" >
+        <IconButton className="swipeButtons__left" >
             <CloseIcon fontSize="large" />
         </IconButton>
 
-        <IconButton onClick={swiped} className="swipeButtons__star" >
+        <IconButton className="swipeButtons__star" >
             <StarRateIcon fontSize="large" />
         </IconButton>
 
-        <IconButton onClick={swiped} className="swipeButtons__right" >
+        <IconButton className="swipeButtons__right" >
             <FavoriteIcon fontSize="large" />
         </IconButton>
 
-        <IconButton onClick={swiped} className="swipeButtons__lightning" >
+        <IconButton className="swipeButtons__lightning" >
             <FlashOnIcon fontSize="large" />
         </IconButton>
     
