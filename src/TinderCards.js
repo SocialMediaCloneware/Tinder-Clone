@@ -1,5 +1,5 @@
-import { PeopleRounded } from '@material-ui/icons';
-import React from 'react'
+import { SwipeableDrawer } from '@material-ui/core';
+import React, {useState} from 'react'
 import "./TinderCards.css"
 
 function TinderCards() {
@@ -10,14 +10,31 @@ function TinderCards() {
         }
     ]);
     
+    const swiped = (direction, nameToDelete) => {
+        console.log("removing: " + nameToDelete);
+
+    };
+
+    const outOfFrame = (name) => {
+        console.log(name + "left the screen");
+    };
+
+
 
     return (
         <div className="tinderCards">
+            <div className="tinderCards__cardContainer">
             {people.map(person =>(
-            <h1>{person.name}</h1>  
+            <TinderCards
+                className="swipe"
+                key={Character.name}
+                preventSwipe={["up","down"]}
+                onSwipe={(dir)=> swiped(dir, character.name)}
+                onCardLeftScreen={()=> outOfFrame(character.name)}
+            ></TinderCards>
             ))}
 
-
+            </div>
         </div>
     )
 }
