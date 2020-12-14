@@ -11,6 +11,8 @@ function TinderCards() {
          const req = await axios.get("/tinder/cards")
          setPeople(req.data);
         }
+
+        fetchData();
     }, [])
     
     const swiped = (direction, nameToDelete) => {
@@ -22,7 +24,7 @@ function TinderCards() {
         console.log(name + "left the screen");
     };
 
-
+console.log(people);
 
     return (
         <div className="tinderCards">
@@ -36,7 +38,7 @@ function TinderCards() {
                 onCardLeftScreen={()=> outOfFrame(person.name)}
                 
             >
-                <div style={{background:"url(" + person.url + ")"}}
+                <div style={{background:"url(" + person.imgUrl + ")"}}
                 className="card">
                 <h3>{person.name}</h3>
 
