@@ -30,7 +30,7 @@ console.log(people);
         <div className="tinderCards">
             <div className="tinderCards__cardContainer">
             {people.map(person =>(
-            <TinderCard
+            <TinderCard 
                 className="swipe"
                 key={person.name}
                 preventSwipe={["up","down"]}
@@ -38,7 +38,7 @@ console.log(people);
                 onCardLeftScreen={()=> outOfFrame(person.name)}
                 
             >
-                <div style={{background:"url(" + person.imgUrl + ")"}}
+                <div style={{background:"url(" + person.imgUrl + ")", backgroundSize: "100%"}}
                 className="card">
                 <h3>{person.name}</h3>
 
