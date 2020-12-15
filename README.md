@@ -1,6 +1,6 @@
 # Tinder Clone MERN STACK
 
-<img src="Tinder-clone-Homepage.PNG" width="150" /><img src="Tinder-clone-MessageScreen.PNG" width="200" /><img src="Tinder-clone-chatScreen.PNG" width="200" />
+<img src="Tinder-clone-Homepage.PNG" width="150" />  <img src="Tinder-clone-MessageScreen.PNG" width="200" />  <img src="Tinder-clone-chatScreen.PNG" width="200" />
 
 
 
