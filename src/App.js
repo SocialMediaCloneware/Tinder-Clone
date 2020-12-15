@@ -8,19 +8,21 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 function App() {
   return (
     <div className="app">
-    {/* Header */}
-    <Header />
 
     {/* <Router>      */}
     <Router>  
     <Switch>
 
     <Route path="/chat">
-    <h1>I am the chat page</h1>
+    {/* Chat component */}
+    <Header backButton="/" />
+
     </Route>
 
     <Route path="/">
-      
+      {/* Header */}
+      <Header />
+      {/* Tinder Card Component */}
       <TinderCards />
 
       <SwipeButtons />
@@ -28,12 +30,6 @@ function App() {
     </Route>
 
   </Switch>
-
-
-
-
-
-
 {/* Inidividual chat screen */}
 </Router>
     </div>
