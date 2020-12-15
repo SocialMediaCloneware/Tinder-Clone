@@ -6,6 +6,8 @@ Link to Tinder-Clone App - [TRAILme App Live Link](https://socialmediacloneware.
 
 Link to Project Board used for application development - [Project Board](https://github.com/SocialMediaCloneware/tinder-clone/projects/1)
 
+Link to Presentation - [Presentation](https://docs.google.com/presentation/d/1-oT5BpBj-Zsngm8d2Li-OVRJtekQ4Wk88fdCKYQyjs0/edit?usp=sharing)
+
 ### Table of Contents
 
 - [Application MVP](#application-mvp)
