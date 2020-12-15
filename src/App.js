@@ -3,6 +3,7 @@ import './App.css';
 import Header from "./Header";
 import TinderCards from "./TinderCards";
 import SwipeButtons from "./SwipeButtons";
+import Chats from './Chats';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -14,9 +15,11 @@ function App() {
     <Switch>
 
     <Route path="/chat">
-    {/* Chat component */}
+    {/* Back Button */}
     <Header backButton="/" />
-
+    
+    {/* Chat component */}
+    <Chats />
     </Route>
 
     <Route path="/">
