@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Tinder Clone MERN STACK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Reference Links
 
-## Available Scripts
+Link to Tinder-Clone App - [TRAILme App Live Link](https://socialmediacloneware.github.io/tinder-clone/)
 
-In the project directory, you can run:
+Link to Project Board used for application development - [Project Board](https://github.com/SocialMediaCloneware/tinder-clone/projects/1)
 
-### `npm start`
+### Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Application MVP](#application-mvp)
+- [User Stories](#user-stories)
+- [Flow Charts](#flow-chart)
+- [Project Description](#project-description)
+- [Technology Used](#technology-used)
+- [Core Node Dependencies](#core-node-depencencies)
+- [Future Development](#future-development)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## Application MVP
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To make a web app that uses Hiking Project API to gather hiking trails near you. We will have a login page so you can make a user and store your previously favorited trails. We will also have analytics to see progress along certain trails and displayed in the graphs.
 
-### `npm run build`
+- Tinder app  with swipe-able cards with working database.
+- Tinder Chat Component with multiple users’ messages displayed.
+- Chat Screen with reply capability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Flow Chart
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="FlowchartTinderClone.PNG" width="500" />
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Project Description
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tinder-Clone is a beginner friendly clone version of an online dating app, Tinder. It is a MERN Stack app meaning, it contains frontend and backend development. This is an app to be developed as an educational purpose only.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Technology Used
 
-## Learn More
+- Create-React-App
+- MongoDB
+- Mongoose
+- Express
+- React.js 
+- Node.js  
+- Heroku
+- Material-ui
+- Javascript
+- HTML
+- CSS
+- GitHub
+- Postman
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Core Node Dependencies
 
-### Code Splitting
+- Create-React-App using `npx create-react-app my-app`
+- @material-ui/core using `npm i @material-ui/core using`
+- @material-ui/icon using `npm i`
+- axios using `npm i axios`
+- react-router-dom using `npm i react-router-dom`
+- react-tinder-card using `npm i react-tinder-card`
+- Express using `npm i Express`
+- Mongoose using `npm i Mongoose`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Future Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The app will be further developed to become a fully functional app and will be used for future developmet of "Dinder" which is short for Developers Tinder. This is yet to be determined when it will be developed.

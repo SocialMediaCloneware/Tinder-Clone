@@ -15,25 +15,25 @@ function App() {
     <Router>  
     <Switch>
 
-    <Route path="/tinder-clone/chat/:person">
+    <Route path="/chat/:person">
 
     {/* Back Button */}
-    <Header backButton="/tinder-clone/chat" />
+    <Header backButton="/chat" />
     
     {/* Chatscreen component */}
     <ChatScreen />
     </Route>
 
-    <Route path="/tinder-clone/chat">
+    <Route path="/chat">
 
     {/* Back Button */}
-    <Header backButton="/tinder-clone/" />
+    <Header backButton="/" />
     
     {/* Chat component */}
     <Chats />
     </Route>
 
-    <Route path="/tinder-clone/">
+    <Route path="/">
       {/* Header */}
       <Header />
       {/* Tinder Card Component */}
