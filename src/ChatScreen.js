@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Avatar from '@material-ui/core/Avatar'
 
 function ChatScreen() {
     const [messages, setMessages] = useState([
@@ -13,7 +14,7 @@ function ChatScreen() {
             message: 'What r u doooin?'
         },
         {
-            message: 'Just chilln'
+            message: 'Just chilln.... u?'
         },
     ]);
 
@@ -23,7 +24,10 @@ function ChatScreen() {
             <p>YOU MATCHES WITH SARAH ON 12/12/20</p>
             {messages.map(message => (
                 <div className="chatScreen__message">
-                    <p>{message.message}</p>
+                    <Avatar className='chat__image' 
+                    alt={message.name}
+                    src={message.image}  />
+                    <p className="chatScreen__text">{message.message}</p>
                 </div>
             ))}
 
