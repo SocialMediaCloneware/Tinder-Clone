@@ -1,5 +1,9 @@
 # Tinder Clone MERN STACK
 
+<img src="Tinder-clone-Homepage.PNG" width="300" /><img src="Tinder-clone-MessageScreen.PNG" width="300" /><img src="Tinder-clone-chatScreen.PNG" width="300" />
+
+
+
 ## Reference Links
 
 Link to Tinder-Clone App - [TRAILme App Live Link](https://socialmediacloneware.github.io/tinder-clone/)
