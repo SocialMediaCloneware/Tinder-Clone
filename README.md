@@ -15,7 +15,6 @@ Link to Presentation - [Presentation](https://docs.google.com/presentation/d/1-o
 ### Table of Contents
 
 - [Application MVP](#application-mvp)
-- [User Stories](#user-stories)
 - [Flow Charts](#flow-chart)
 - [Project Description](#project-description)
 - [Technology Used](#technology-used)
