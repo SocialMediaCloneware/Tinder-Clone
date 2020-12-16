@@ -6,7 +6,7 @@
 
 ## Reference Links
 
-Link to Tinder-Clone App - [TRAILme App Live Link](https://socialmediacloneware.github.io/tinder-clone/)
+Link to Tinder-Clone App - [Tinder-Clone App](https://socialmediacloneware.github.io/tinder-clone/)
 
 Link to Project Board used for application development - [Project Board](https://github.com/SocialMediaCloneware/tinder-clone/projects/1)
 
