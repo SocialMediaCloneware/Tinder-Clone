@@ -25,8 +25,6 @@ Link to Presentation - [Presentation](https://docs.google.com/presentation/d/1-o
 
 ## Application MVP
 
-To make a web app that uses Hiking Project API to gather hiking trails near you. We will have a login page so you can make a user and store your previously favorited trails. We will also have analytics to see progress along certain trails and displayed in the graphs.
-
 - Tinder app  with swipe-able cards with working database.
 - Tinder Chat Component with multiple users’ messages displayed.
 - Chat Screen with reply capability.
