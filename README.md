@@ -1,12 +1,16 @@
 # Tinder Clone MERN STACK
 
+<<<<<<< HEAD
 <img src="Tinder-clone-Homepage.PNG" width="100" /><img src="Tinder-clone-MessageScreen.PNG" width="100" /><img src="Tinder-clone-chatScreen.PNG" width="100" />
+=======
+<img src="Tinder-clone-Homepage.PNG" width="150" />  <img src="Tinder-clone-MessageScreen.PNG" width="200" />  <img src="Tinder-clone-chatScreen.PNG" width="200" />
+>>>>>>> c844aad907efa20a4fa4e914cb9c7e8543236d50
 
 
 
 ## Reference Links
 
-Link to Tinder-Clone App - [TRAILme App Live Link](https://socialmediacloneware.github.io/tinder-clone/)
+Link to Tinder-Clone App - [Tinder-Clone App](https://socialmediacloneware.github.io/tinder-clone/)
 
 Link to Project Board used for application development - [Project Board](https://github.com/SocialMediaCloneware/tinder-clone/projects/1)
 
@@ -15,7 +19,6 @@ Link to Presentation - [Presentation](https://docs.google.com/presentation/d/1-o
 ### Table of Contents
 
 - [Application MVP](#application-mvp)
-- [User Stories](#user-stories)
 - [Flow Charts](#flow-chart)
 - [Project Description](#project-description)
 - [Technology Used](#technology-used)
@@ -25,8 +28,6 @@ Link to Presentation - [Presentation](https://docs.google.com/presentation/d/1-o
 ---
 
 ## Application MVP
-
-To make a web app that uses Hiking Project API to gather hiking trails near you. We will have a login page so you can make a user and store your previously favorited trails. We will also have analytics to see progress along certain trails and displayed in the graphs.
 
 - Tinder app  with swipe-able cards with working database.
 - Tinder Chat Component with multiple users’ messages displayed.
